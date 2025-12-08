@@ -1,3 +1,8 @@
+/*
+	removal of all '@' characters (representing "rolls of paper") that have fewer than four '@' neighbors
+
+*/
+
 package main
 
 import (
@@ -90,5 +95,5 @@ func main() {
 		}
 	}
 
-	fmt.Printf("rolls of paper removed: %d\n", removed)
+	fmt.Printf("rolls of paper removed: %d\n", removed) // 8690
 }
