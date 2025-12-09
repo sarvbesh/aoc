@@ -91,5 +91,5 @@ func main() {
 		total += res
 	}
 
-	fmt.Printf("total: %d\n", total)
+	fmt.Printf("total: %d\n", total) // 6209956042374
 }
